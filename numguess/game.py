@@ -5,4 +5,8 @@ user_name = input('Enter your name: ')
 answer = random.randint(1,100)
 
 #for debugging
-print(user_name, answer)
+print(answer)
+
+guess=input('Welcom,{}. Guess the ultimate number:'.format(user_name))
+
+print(guess, answer)
