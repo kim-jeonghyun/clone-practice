@@ -1,2 +1,3 @@
-
-print ('We\re on ssac branch.')
+for i in range (1,100+1):
+	print(i, end='\t')
+print('')
